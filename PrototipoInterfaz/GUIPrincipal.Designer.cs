@@ -1,6 +1,6 @@
 ﻿namespace PrototipoInterfaz
 {
-    partial class Form1
+    partial class GUIPrincipal
     {
         /// <summary>
         /// Variable del diseñador necesaria.
@@ -28,9 +28,17 @@
         /// </summary>
         private void InitializeComponent()
         {
-            this.components = new System.ComponentModel.Container();
+            this.SuspendLayout();
+            // 
+            // GUIPrincipal
+            // 
+            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.Text = "Form1";
+            this.ClientSize = new System.Drawing.Size(338, 286);
+            this.Name = "GUIPrincipal";
+            this.Text = "Interfaz Principal";
+            this.ResumeLayout(false);
+
         }
 
         #endregion

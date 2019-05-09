@@ -46,14 +46,26 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Form1.cs">
+    <Compile Include="GUINewQueen.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Form1.Designer.cs">
-      <DependentUpon>Form1.cs</DependentUpon>
+    <Compile Include="GUINewQueen.Designer.cs">
+      <DependentUpon>GUINewQueen.cs</DependentUpon>
+    </Compile>
+    <Compile Include="GUIPrincipal.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="GUIPrincipal.Designer.cs">
+      <DependentUpon>GUIPrincipal.cs</DependentUpon>
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="GUINewQueen.resx">
+      <DependentUpon>GUINewQueen.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="GUIPrincipal.resx">
+      <DependentUpon>GUIPrincipal.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
       <LastGenOutput>Resources.Designer.cs</LastGenOutput>

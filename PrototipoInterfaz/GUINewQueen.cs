@@ -10,9 +10,9 @@ using System.Windows.Forms;
 
 namespace PrototipoInterfaz
 {
-    public partial class GUIPrincipal : Form
+    public partial class GUINewQueen : Form
     {
-        public GUIPrincipal()
+        public GUINewQueen()
         {
             InitializeComponent();
         }
