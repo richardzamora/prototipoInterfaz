@@ -23,3 +23,5 @@ c:\users\usuario\documents\visual studio 2015\Projects\PrototipoInterfaz\Prototi
 c:\users\usuario\documents\visual studio 2015\Projects\PrototipoInterfaz\PrototipoInterfaz\obj\Debug\PrototipoInterfaz.csproj.GenerateResource.Cache
 >>>>>>> 70ca62f9423d95acd29d8f406e8780a8f79f5148
 C:\Users\usuario\prototipoInterfaz\PrototipoInterfaz\obj\Debug\PrototipoInterfaz.GUIMotrarParticipante.resources
+C:\Users\usuario\prototipoInterfaz\PrototipoInterfaz\obj\Debug\PrototipoInterfaz.GUIMostrarParticipante.resources
+C:\Users\usuario\prototipoInterfaz\PrototipoInterfaz\obj\Debug\PrototipoInterfaz.GUIMotrarParticipantePorInfo.resources

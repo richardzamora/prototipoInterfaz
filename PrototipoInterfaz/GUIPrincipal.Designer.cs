@@ -37,6 +37,7 @@
             this.buscarParticipantePorToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.bucToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.porMenorEdadToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.porInformaciónToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.menuPrincipal.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -47,7 +48,7 @@
             this.ayudaToolStripMenuItem});
             this.menuPrincipal.Location = new System.Drawing.Point(0, 0);
             this.menuPrincipal.Name = "menuPrincipal";
-            this.menuPrincipal.Size = new System.Drawing.Size(306, 24);
+            this.menuPrincipal.Size = new System.Drawing.Size(336, 24);
             this.menuPrincipal.TabIndex = 0;
             this.menuPrincipal.Text = "menuStrip1";
             // 
@@ -93,7 +94,8 @@
             // 
             this.buscarParticipantePorToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
             this.bucToolStripMenuItem,
-            this.porMenorEdadToolStripMenuItem});
+            this.porMenorEdadToolStripMenuItem,
+            this.porInformaciónToolStripMenuItem});
             this.buscarParticipantePorToolStripMenuItem.Name = "buscarParticipantePorToolStripMenuItem";
             this.buscarParticipantePorToolStripMenuItem.Size = new System.Drawing.Size(205, 22);
             this.buscarParticipantePorToolStripMenuItem.Text = "Buscar participante por...";
@@ -112,11 +114,18 @@
             this.porMenorEdadToolStripMenuItem.Text = "Por menor edad";
             this.porMenorEdadToolStripMenuItem.Click += new System.EventHandler(this.porMenorEdadToolStripMenuItem_Click);
             // 
+            // porInformaciónToolStripMenuItem
+            // 
+            this.porInformaciónToolStripMenuItem.Name = "porInformaciónToolStripMenuItem";
+            this.porInformaciónToolStripMenuItem.Size = new System.Drawing.Size(174, 22);
+            this.porInformaciónToolStripMenuItem.Text = "Por información";
+            this.porInformaciónToolStripMenuItem.Click += new System.EventHandler(this.porInformaciónToolStripMenuItem_Click);
+            // 
             // GUIPrincipal
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(306, 382);
+            this.ClientSize = new System.Drawing.Size(336, 382);
             this.Controls.Add(this.menuPrincipal);
             this.MainMenuStrip = this.menuPrincipal;
             this.Name = "GUIPrincipal";
@@ -139,6 +148,7 @@
         private System.Windows.Forms.ToolStripMenuItem buscarParticipantePorToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem bucToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem porMenorEdadToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem porInformaciónToolStripMenuItem;
     }
 }
 

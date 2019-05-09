@@ -36,8 +36,7 @@ namespace PrototipoInterfaz
 
         private void mostrarParticipantesToolStripMenuItem_Click(object sender, EventArgs e)
         {
-            GUIMotrarParticipantePorInfo gui = new GUIMotrarParticipantePorInfo();
-            gui.Show();
+            
         }
 
         private void bucToolStripMenuItem_Click(object sender, EventArgs e)
@@ -49,6 +48,12 @@ namespace PrototipoInterfaz
         private void porMenorEdadToolStripMenuItem_Click(object sender, EventArgs e)
         {
             GUIMostrarParticipante gui = new GUIMostrarParticipante();
+            gui.Show();
+        }
+
+        private void porInformaciónToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            GUIMotrarParticipantePorInfo gui = new GUIMotrarParticipantePorInfo();
             gui.Show();
         }
     }
