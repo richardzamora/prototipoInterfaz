@@ -9,4 +9,16 @@ C:\Users\usuario\prototipoInterfaz\PrototipoInterfaz\obj\Debug\PrototipoInterfaz
 C:\Users\usuario\prototipoInterfaz\PrototipoInterfaz\obj\Debug\PrototipoInterfaz.csproj.GenerateResource.Cache
 C:\Users\usuario\prototipoInterfaz\PrototipoInterfaz\obj\Debug\PrototipoInterfaz.exe
 C:\Users\usuario\prototipoInterfaz\PrototipoInterfaz\obj\Debug\PrototipoInterfaz.pdb
+<<<<<<< HEAD
 C:\Users\usuario\prototipoInterfaz\PrototipoInterfaz\obj\Debug\PrototipoInterfaz.GUIBuscarParticipante.resources
+=======
+c:\users\usuario\documents\visual studio 2015\Projects\PrototipoInterfaz\PrototipoInterfaz\obj\Debug\PrototipoInterfaz.exe
+c:\users\usuario\documents\visual studio 2015\Projects\PrototipoInterfaz\PrototipoInterfaz\obj\Debug\PrototipoInterfaz.pdb
+c:\users\usuario\documents\visual studio 2015\Projects\PrototipoInterfaz\PrototipoInterfaz\bin\Debug\PrototipoInterfaz.exe
+c:\users\usuario\documents\visual studio 2015\Projects\PrototipoInterfaz\PrototipoInterfaz\bin\Debug\PrototipoInterfaz.pdb
+c:\users\usuario\documents\visual studio 2015\Projects\PrototipoInterfaz\PrototipoInterfaz\obj\Debug\PrototipoInterfaz.csprojResolveAssemblyReference.cache
+c:\users\usuario\documents\visual studio 2015\Projects\PrototipoInterfaz\PrototipoInterfaz\obj\Debug\PrototipoInterfaz.GUINewQueen.resources
+c:\users\usuario\documents\visual studio 2015\Projects\PrototipoInterfaz\PrototipoInterfaz\obj\Debug\PrototipoInterfaz.GUIPrincipal.resources
+c:\users\usuario\documents\visual studio 2015\Projects\PrototipoInterfaz\PrototipoInterfaz\obj\Debug\PrototipoInterfaz.Properties.Resources.resources
+c:\users\usuario\documents\visual studio 2015\Projects\PrototipoInterfaz\PrototipoInterfaz\obj\Debug\PrototipoInterfaz.csproj.GenerateResource.Cache
+>>>>>>> 70ca62f9423d95acd29d8f406e8780a8f79f5148
