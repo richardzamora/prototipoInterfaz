@@ -16,5 +16,16 @@ namespace PrototipoInterfaz
         {
             InitializeComponent();
         }
+
+        private void mostrarInformaciónToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            
+        }
+
+        private void registrarParticipanteToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            GUINewQueen gui = new GUINewQueen();
+            gui.Show();
+        }
     }
 }
