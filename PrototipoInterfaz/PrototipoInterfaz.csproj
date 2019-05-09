@@ -46,6 +46,18 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="GUIBuscarParticipante.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="GUIBuscarParticipante.Designer.cs">
+      <DependentUpon>GUIBuscarParticipante.cs</DependentUpon>
+    </Compile>
+    <Compile Include="GUIMotrarParticipante.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="GUIMotrarParticipante.Designer.cs">
+      <DependentUpon>GUIMotrarParticipante.cs</DependentUpon>
+    </Compile>
     <Compile Include="GUINewQueen.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -60,6 +72,9 @@
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="GUIBuscarParticipante.resx">
+      <DependentUpon>GUIBuscarParticipante.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="GUINewQueen.resx">
       <DependentUpon>GUINewQueen.cs</DependentUpon>
     </EmbeddedResource>

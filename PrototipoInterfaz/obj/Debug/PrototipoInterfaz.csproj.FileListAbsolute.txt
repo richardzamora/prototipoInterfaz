@@ -9,3 +9,4 @@ C:\Users\usuario\prototipoInterfaz\PrototipoInterfaz\obj\Debug\PrototipoInterfaz
 C:\Users\usuario\prototipoInterfaz\PrototipoInterfaz\obj\Debug\PrototipoInterfaz.csproj.GenerateResource.Cache
 C:\Users\usuario\prototipoInterfaz\PrototipoInterfaz\obj\Debug\PrototipoInterfaz.exe
 C:\Users\usuario\prototipoInterfaz\PrototipoInterfaz\obj\Debug\PrototipoInterfaz.pdb
+C:\Users\usuario\prototipoInterfaz\PrototipoInterfaz\obj\Debug\PrototipoInterfaz.GUIBuscarParticipante.resources

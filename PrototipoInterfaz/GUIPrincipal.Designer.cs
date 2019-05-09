@@ -48,7 +48,7 @@
             this.ayudaToolStripMenuItem});
             this.menuPrincipal.Location = new System.Drawing.Point(0, 0);
             this.menuPrincipal.Name = "menuPrincipal";
-            this.menuPrincipal.Size = new System.Drawing.Size(510, 24);
+            this.menuPrincipal.Size = new System.Drawing.Size(440, 24);
             this.menuPrincipal.TabIndex = 0;
             this.menuPrincipal.Text = "menuStrip1";
             // 
@@ -104,6 +104,7 @@
             this.buscarPorNombreToolStripMenuItem.Name = "buscarPorNombreToolStripMenuItem";
             this.buscarPorNombreToolStripMenuItem.Size = new System.Drawing.Size(174, 22);
             this.buscarPorNombreToolStripMenuItem.Text = "Por nombre";
+            this.buscarPorNombreToolStripMenuItem.Click += new System.EventHandler(this.buscarPorNombreToolStripMenuItem_Click);
             // 
             // bucToolStripMenuItem
             // 
@@ -121,7 +122,7 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(510, 382);
+            this.ClientSize = new System.Drawing.Size(440, 382);
             this.Controls.Add(this.menuPrincipal);
             this.MainMenuStrip = this.menuPrincipal;
             this.Name = "GUIPrincipal";

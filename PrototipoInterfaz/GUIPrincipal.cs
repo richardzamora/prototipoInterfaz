@@ -19,13 +19,19 @@ namespace PrototipoInterfaz
 
         private void mostrarInformaciónToolStripMenuItem_Click(object sender, EventArgs e)
         {
-            
+            GUIBuscarParticipante gui = new GUIBuscarParticipante();
+            gui.Show();
         }
 
         private void registrarParticipanteToolStripMenuItem_Click(object sender, EventArgs e)
         {
             GUINewQueen gui = new GUINewQueen();
             gui.Show();
+        }
+
+        private void buscarPorNombreToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+
         }
     }
 }
