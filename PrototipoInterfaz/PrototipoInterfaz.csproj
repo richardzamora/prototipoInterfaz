@@ -52,11 +52,17 @@
     <Compile Include="GUIBuscarParticipante.Designer.cs">
       <DependentUpon>GUIBuscarParticipante.cs</DependentUpon>
     </Compile>
-    <Compile Include="GUIMotrarParticipante.cs">
+    <Compile Include="GUIMostrarParticipante.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="GUIMotrarParticipante.Designer.cs">
-      <DependentUpon>GUIMotrarParticipante.cs</DependentUpon>
+    <Compile Include="GUIMostrarParticipante.Designer.cs">
+      <DependentUpon>GUIMostrarParticipante.cs</DependentUpon>
+    </Compile>
+    <Compile Include="GUIMotrarParticipantePorInfo.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="GUIMotrarParticipantePorInfo.Designer.cs">
+      <DependentUpon>GUIMotrarParticipantePorInfo.cs</DependentUpon>
     </Compile>
     <Compile Include="GUINewQueen.cs">
       <SubType>Form</SubType>
@@ -74,6 +80,12 @@
     <Compile Include="Properties\AssemblyInfo.cs" />
     <EmbeddedResource Include="GUIBuscarParticipante.resx">
       <DependentUpon>GUIBuscarParticipante.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="GUIMostrarParticipante.resx">
+      <DependentUpon>GUIMostrarParticipante.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="GUIMotrarParticipantePorInfo.resx">
+      <DependentUpon>GUIMotrarParticipantePorInfo.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="GUINewQueen.resx">
       <DependentUpon>GUINewQueen.cs</DependentUpon>

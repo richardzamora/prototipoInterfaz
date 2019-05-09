@@ -10,11 +10,16 @@ using System.Windows.Forms;
 
 namespace PrototipoInterfaz
 {
-    public partial class GUIMotrarParticipante : Form
+    public partial class GUIMotrarParticipantePorInfo : Form
     {
-        public GUIMotrarParticipante()
+        public GUIMotrarParticipantePorInfo()
         {
             InitializeComponent();
+        }
+
+        private void comboBox1_SelectedIndexChanged(object sender, EventArgs e)
+        {
+
         }
     }
 }
