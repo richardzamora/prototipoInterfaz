@@ -28,6 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(GUIBuscarParticipante));
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.panel2 = new System.Windows.Forms.Panel();
             this.textBox6 = new System.Windows.Forms.TextBox();
@@ -47,8 +48,8 @@
             this.label10 = new System.Windows.Forms.Label();
             this.textBox7 = new System.Windows.Forms.TextBox();
             this.label9 = new System.Windows.Forms.Label();
-            this.label5 = new System.Windows.Forms.Label();
             this.textBox3 = new System.Windows.Forms.TextBox();
+            this.label5 = new System.Windows.Forms.Label();
             this.label3 = new System.Windows.Forms.Label();
             this.txtNombreBuscar = new System.Windows.Forms.TextBox();
             this.button1 = new System.Windows.Forms.Button();
@@ -59,6 +60,7 @@
             // 
             // pictureBox1
             // 
+            this.pictureBox1.BackColor = System.Drawing.Color.LightSkyBlue;
             this.pictureBox1.Location = new System.Drawing.Point(28, 52);
             this.pictureBox1.Name = "pictureBox1";
             this.pictureBox1.Size = new System.Drawing.Size(308, 211);
@@ -67,6 +69,7 @@
             // 
             // panel2
             // 
+            this.panel2.BackColor = System.Drawing.Color.LightSkyBlue;
             this.panel2.Controls.Add(this.textBox6);
             this.panel2.Controls.Add(this.label8);
             this.panel2.Controls.Add(this.textBox5);
@@ -141,6 +144,7 @@
             // Edad
             // 
             this.Edad.AutoSize = true;
+            this.Edad.BackColor = System.Drawing.Color.LightSkyBlue;
             this.Edad.Location = new System.Drawing.Point(42, 346);
             this.Edad.Name = "Edad";
             this.Edad.Size = new System.Drawing.Size(32, 13);
@@ -158,6 +162,7 @@
             // label2
             // 
             this.label2.AutoSize = true;
+            this.label2.BackColor = System.Drawing.Color.LightSkyBlue;
             this.label2.Location = new System.Drawing.Point(42, 320);
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(109, 13);
@@ -175,6 +180,7 @@
             // label1
             // 
             this.label1.AutoSize = true;
+            this.label1.BackColor = System.Drawing.Color.LightSkyBlue;
             this.label1.Location = new System.Drawing.Point(42, 294);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(44, 13);
@@ -204,6 +210,7 @@
             // label10
             // 
             this.label10.AutoSize = true;
+            this.label10.BackColor = System.Drawing.Color.LightSkyBlue;
             this.label10.Location = new System.Drawing.Point(17, 129);
             this.label10.Name = "label10";
             this.label10.Size = new System.Drawing.Size(59, 13);
@@ -221,11 +228,20 @@
             // label9
             // 
             this.label9.AutoSize = true;
+            this.label9.BackColor = System.Drawing.Color.LightSkyBlue;
             this.label9.Location = new System.Drawing.Point(17, 103);
             this.label9.Name = "label9";
             this.label9.Size = new System.Drawing.Size(46, 13);
             this.label9.TabIndex = 8;
             this.label9.Text = "Estatura";
+            // 
+            // textBox3
+            // 
+            this.textBox3.Enabled = false;
+            this.textBox3.Location = new System.Drawing.Point(129, 74);
+            this.textBox3.Name = "textBox3";
+            this.textBox3.Size = new System.Drawing.Size(154, 20);
+            this.textBox3.TabIndex = 5;
             // 
             // label5
             // 
@@ -235,14 +251,6 @@
             this.label5.Size = new System.Drawing.Size(75, 13);
             this.label5.TabIndex = 6;
             this.label5.Text = "Datos Basicos";
-            // 
-            // textBox3
-            // 
-            this.textBox3.Enabled = false;
-            this.textBox3.Location = new System.Drawing.Point(129, 74);
-            this.textBox3.Name = "textBox3";
-            this.textBox3.Size = new System.Drawing.Size(154, 20);
-            this.textBox3.TabIndex = 5;
             // 
             // label3
             // 
@@ -273,6 +281,7 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.BackColor = System.Drawing.Color.SkyBlue;
             this.ClientSize = new System.Drawing.Size(361, 502);
             this.Controls.Add(this.button1);
             this.Controls.Add(this.txtNombreBuscar);
@@ -286,6 +295,7 @@
             this.Controls.Add(this.label1);
             this.Controls.Add(this.panel1);
             this.Controls.Add(this.pictureBox1);
+            this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.Name = "GUIBuscarParticipante";
             this.Text = "Buscar Participante Por Nombre";
             this.Load += new System.EventHandler(this.GUIBuscarParticipante_Load);

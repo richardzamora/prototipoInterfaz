@@ -28,6 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(GUIMostrarParticipante));
             this.panel2 = new System.Windows.Forms.Panel();
             this.textBox6 = new System.Windows.Forms.TextBox();
             this.label8 = new System.Windows.Forms.Label();
@@ -56,6 +57,7 @@
             // 
             // panel2
             // 
+            this.panel2.BackColor = System.Drawing.Color.LightSkyBlue;
             this.panel2.Controls.Add(this.textBox6);
             this.panel2.Controls.Add(this.label8);
             this.panel2.Controls.Add(this.textBox5);
@@ -181,6 +183,7 @@
             // 
             // panel1
             // 
+            this.panel1.BackColor = System.Drawing.Color.LightSkyBlue;
             this.panel1.Controls.Add(this.textBox8);
             this.panel1.Controls.Add(this.label10);
             this.panel1.Controls.Add(this.textBox7);
@@ -235,6 +238,7 @@
             // 
             // pictureBox1
             // 
+            this.pictureBox1.BackColor = System.Drawing.Color.LightSkyBlue;
             this.pictureBox1.Location = new System.Drawing.Point(16, 17);
             this.pictureBox1.Name = "pictureBox1";
             this.pictureBox1.Size = new System.Drawing.Size(308, 211);
@@ -245,6 +249,7 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.BackColor = System.Drawing.Color.SkyBlue;
             this.ClientSize = new System.Drawing.Size(341, 470);
             this.Controls.Add(this.panel2);
             this.Controls.Add(this.label5);
@@ -255,6 +260,7 @@
             this.Controls.Add(this.label1);
             this.Controls.Add(this.panel1);
             this.Controls.Add(this.pictureBox1);
+            this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.Name = "GUIMostrarParticipante";
             this.Text = "GUIMostrarParticipante";
             this.panel2.ResumeLayout(false);

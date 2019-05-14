@@ -28,12 +28,12 @@
         /// </summary>
         private void InitializeComponent()
         {
-<<<<<<< HEAD
+
             this.menuPrincipal = new System.Windows.Forms.MenuStrip();
-=======
+
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(GUIPrincipal));
-            this.menuStrip1 = new System.Windows.Forms.MenuStrip();
->>>>>>> 530c81ab0bd654d72b73cbc246c71f2987a76dfb
+            this.menuPrincipal = new System.Windows.Forms.MenuStrip();
+
             this.participantesToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.mostrarParticipantesToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.mostrarInformaciónToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
@@ -41,20 +41,20 @@
             this.buscarParticipantePorToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.bucToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.porMenorEdadToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-<<<<<<< HEAD
+
             this.porInformaciónToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.menuPrincipal.SuspendLayout();
-=======
+
             this.ayudaToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
-            this.menuStrip1.SuspendLayout();
+            this.menuPrincipal.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
->>>>>>> 530c81ab0bd654d72b73cbc246c71f2987a76dfb
+
             this.SuspendLayout();
             // 
             // menuPrincipal
             // 
-<<<<<<< HEAD
+
             this.menuPrincipal.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
             this.participantesToolStripMenuItem,
             this.ayudaToolStripMenuItem});
@@ -63,17 +63,15 @@
             this.menuPrincipal.Size = new System.Drawing.Size(336, 24);
             this.menuPrincipal.TabIndex = 0;
             this.menuPrincipal.Text = "menuStrip1";
-=======
-            this.menuStrip1.BackColor = System.Drawing.Color.SkyBlue;
-            this.menuStrip1.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
+            this.menuPrincipal.BackColor = System.Drawing.Color.SkyBlue;
+            this.menuPrincipal.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
             this.participantesToolStripMenuItem,
             this.ayudaToolStripMenuItem});
-            this.menuStrip1.Location = new System.Drawing.Point(0, 0);
-            this.menuStrip1.Name = "menuStrip1";
-            this.menuStrip1.Size = new System.Drawing.Size(346, 24);
-            this.menuStrip1.TabIndex = 0;
-            this.menuStrip1.Text = "menuStrip1";
->>>>>>> 530c81ab0bd654d72b73cbc246c71f2987a76dfb
+            this.menuPrincipal.Location = new System.Drawing.Point(0, 0);
+            this.menuPrincipal.Name = "menuStrip1";
+            this.menuPrincipal.Size = new System.Drawing.Size(346, 24);
+            this.menuPrincipal.TabIndex = 0;
+            this.menuPrincipal.Text = "menuStrip1";
             // 
             // participantesToolStripMenuItem
             // 
@@ -158,7 +156,7 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-<<<<<<< HEAD
+
             this.ClientSize = new System.Drawing.Size(336, 382);
             this.Controls.Add(this.menuPrincipal);
             this.MainMenuStrip = this.menuPrincipal;
@@ -166,19 +164,19 @@
             this.Text = "Interfaz Principal";
             this.menuPrincipal.ResumeLayout(false);
             this.menuPrincipal.PerformLayout();
-=======
+
             this.BackColor = System.Drawing.Color.LightSkyBlue;
             this.ClientSize = new System.Drawing.Size(346, 277);
             this.Controls.Add(this.pictureBox1);
-            this.Controls.Add(this.menuStrip1);
+            this.Controls.Add(this.menuPrincipal);
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
-            this.MainMenuStrip = this.menuStrip1;
+            this.MainMenuStrip = this.menuPrincipal;
             this.Name = "GUIPrincipal";
             this.Text = "Interfaz Principal";
-            this.menuStrip1.ResumeLayout(false);
-            this.menuStrip1.PerformLayout();
+            this.menuPrincipal.ResumeLayout(false);
+            this.menuPrincipal.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
->>>>>>> 530c81ab0bd654d72b73cbc246c71f2987a76dfb
+
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -195,11 +193,11 @@
         private System.Windows.Forms.ToolStripMenuItem buscarParticipantePorToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem bucToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem porMenorEdadToolStripMenuItem;
-<<<<<<< HEAD
+
         private System.Windows.Forms.ToolStripMenuItem porInformaciónToolStripMenuItem;
-=======
+
         private System.Windows.Forms.PictureBox pictureBox1;
->>>>>>> 530c81ab0bd654d72b73cbc246c71f2987a76dfb
+
     }
 }
 
